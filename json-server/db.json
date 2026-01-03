@@ -1,0 +1,11 @@
+{
+  "posts": [
+    { "id": 1, "title": "Bootstrap post" }
+  ],
+  "comments": [
+    { "id": 1, "title": "Bootstrap comment" }
+  ],
+  "users": [
+    { "id": 1, "name": "Bootstrap name" }
+  ]
+}

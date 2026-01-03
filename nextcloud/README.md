@@ -106,7 +106,7 @@ You can clean data and start fresh by running in the console:
 ```
 docker-compose down
 docker container prune -a -f
-docker volume prune -f
+docker volume prune -a -f
 ```
 
 Other usefull cleaning commands
