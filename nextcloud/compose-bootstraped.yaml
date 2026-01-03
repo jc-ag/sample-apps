@@ -51,7 +51,7 @@ services:
       - nc
     volumes:
       - ./init/bootstrap.sh:/bootstrap.sh
-      - /var/run/docker.sock:/var/run/docker.sock   # 👈 para poder hacer docker exec
+      - /var/run/docker.sock:/var/run/docker.sock   # 👈 to run docker exec
     entrypoint: ["/bin/sh", "/bootstrap.sh"]
 volumes:
   db_data:
