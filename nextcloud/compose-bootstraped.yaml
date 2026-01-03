@@ -12,6 +12,7 @@ services:
       - redisnet
       - dbnet
     environment:
+      - NEXTCLOUD_TRUSTED_DOMAINS=localhost 127.0.0.1 ::1
       - NEXTCLOUD_ADMIN_USER=admin
       - NEXTCLOUD_ADMIN_PASSWORD=secret
       - REDIS_HOST=redis

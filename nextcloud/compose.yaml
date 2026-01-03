@@ -31,6 +31,7 @@ services:
     networks:
       - dbnet
     environment:
+      - NEXTCLOUD_TRUSTED_DOMAINS=localhost 127.0.0.1 ::1
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
       - MYSQL_ROOT_PASSWORD=nextcloud
